@@ -24,7 +24,7 @@ Our original data is from a Kaggle competition "Kobe Bryant Shot Selection": htt
 
 We first process Kobe's data in `Preprocessing/Preprocessing.ipynb`:
 
-1. First do data cleaning and discard some redundant features.
+1. Clean the data and discard some redundant features.
 
 2. Visualize Kobe's shot accuracy with different shot types, shot zones, seasons and periods.  
 Meanwhile, we compare Kobe with Stephen Curry's shot data in `Preprocessing/Curry_Visualize.ipynb`, which was acquired from NBA Stats.
@@ -35,8 +35,8 @@ From preprocessing, we decide to analyze further data only with a linear model.
 
 ## Shot Analysis
 
-In Shot Analysis directory, we use different players' data to train their models,
-and classify the players with coefficients of their models.  
+In `Shot_Analysis` directory, we use different players' data to train their models,
+and classify the players with coefficients of their linear models.  
 **CAUTION: ONLY A FEW sample data is uploaded in `Shot_Analysis/shot_data` directory.**
 
 `Shot_Analysis/NBA_GetData.ipynb`: Run to collect all active players' shot data from NBA Stats.
@@ -54,6 +54,6 @@ in order to figure out the defense behaviors of different teams.
 `Opponent_Analysis/NBA_GetData.ipynb`: Transfer the files in `Shot_Analysis/shot_data`,
 which are sorted by same PLAYER_ID, into files sorted by same OPPONENT_TEAM_ID.
 
-`Shot_Analysis/NBA_TrainModel.ipynb`: Clean different opponents' data and use them to train their models.
+`Opponent_Analysis/NBA_TrainModel.ipynb`: Clean different opponents' data and use them to train their models.
 
-`Shot_Analysis/NBA_PlayerClassify.ipynb`: Use the models to classify teams.
+`Opponent_Analysis/NBA_PlayerClassify.ipynb`: Use the models to classify teams.

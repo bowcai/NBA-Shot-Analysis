@@ -4,6 +4,6 @@
 ## Dependancy
 Python3
 
-Some basic data analysis packages such as `numpy`, `pandas`, `matplotlib`, `scikit-learn`
+Some basic data analysis packages such as numpy, pandas, matplotlib, scikit-learn
 
 Collect data from NBA Stats with `nba_api`: https://github.com/swar/nba_api

@@ -1,5 +1,9 @@
 # NBA-Shot-Analysis
 
+### R.I.P. Kobe Bryant (1978-2020)
+
+![R.I.P. Kobe Bryant](https://media.nbclosangeles.com/2019/09/kobe-bryant-obit-lakers-image.jpg?resize=425%2C239)
+
 #### A very simple NBA shot data analysis project based on "shotchartdetail" from NBA official stats API: https://stats.nba.com/
 
 In this project, we use every single shot attempt during player's career to train a linear model.
